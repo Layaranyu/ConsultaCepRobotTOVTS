@@ -93,3 +93,12 @@ Teste 2- Realizar a requisição com o cep inválido e a requisição deve falha
 Dado que esteja conectado no site ApiCep
 Quando o usuário consultar o CEP invalido "33333-334"
 Então a requisição deve falhar e retornar o status "403"
+
+## Conclusão
+No primeiro caso de teste a requisição foi realizada com sucesso e com base no cep informado e nas validações feitas nos testes, todos os dados estão de acordo com o endereço relacionado ao cep.
+No segundo teste a requisição falhou e retornou o status 403.
+
+
+<div align-center>
+<img src="https://user-images.githubusercontent.com/105563616/212573881-b024a5ef-c794-4589-8f51-2a17f4d45451.png" width=700  />
+ </div>
