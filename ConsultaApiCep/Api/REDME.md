@@ -15,8 +15,8 @@ O [Robot Framework](https://robotframework.org/) é um framework baseado em Pyth
 
 ## Configuração de ambiente
 
-Para configurar o ambiente para execução dos testes automatizados, siga o guia que está no arquivo [INSTALL.md](./docs/INSTALL.md)
+Para configurar o ambiente para execução dos testes automatizados, siga o guia que está no arquivo [Install.md](./Docs/Install.md)
 
 ## Como Executar os Testes
 
-Para executar os testes automatizados siga o guia que está no arquivo [RUN.md](./docs/RUN.md)
+Para executar os testes automatizados siga o guia que está no arquivo [Run.md](./Docs/Run.md)
