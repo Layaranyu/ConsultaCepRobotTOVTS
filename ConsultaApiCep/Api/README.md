@@ -13,21 +13,21 @@ O [Robot Framework](https://robotframework.org/) é um framework baseado em Pyth
 ###### Configuração NECESSÁRIA ######
 
 ## VSCode
-Para instalar o VSCODE será necessario baixar o instalador acessando o site oficial [nesse link](https://code.visualstudio.com)
-1.Clique duas vezes no instalador para iniciar o assistente de instalação do VSCode.
-2.Quando abrir o instalador marque a opção "Eu aceito o acordo" e clique em próximo.
-3.Verifique se as opções "adicione em PATH (Disponivel após reiniciar)" e "Registre Code como editor para tipos de arquivos suportados" estão marcados, se não tiver marque e clique em próximo.
-4.Após a instalação clique em concluir.
+Para instalar o VSCODE será necessário baixar o instalador acessando o site oficial [nesse link](https://code.visualstudio.com)
+1. Clique duas vezes no instalador para iniciar o assistente de instalação do VSCode.
+2. Quando abrir o instalador marque a opção "Eu aceito o acordo" e clique em próximo.
+3. Verifique se as opções "adicione em PATH (Disponível após reiniciar)" e "Registre Code como editor para tipos de arquivos suportados" estão marcados, se não tiver marque e clique em próximo.
+4. Após a instalação clique em concluir.
 
 ## Extensão Robot Framework no VSCODE
 Com o VSCODE aberto clique na aba de extensões na lateral esquerda da tela e procure pela extensão "Robot Code" de Daniel Biehl e instale, essa extensão será necessária para reconhecer e realizar a marcação da sintaxe do robot framework 
 
 ## Python
-Para instalar o Python será necessario baixar o instalador acessando o site oficial [nesse link](https://www.python.org/downloads/) e clicando em download Python.
-1.Clique duas vezes no instalador para iniciar o assistente de instalação do python.
-2.Quando abrir o instalador marque a opção "Add Python to PATH".
-3.Clique em "Install Now".
-4.Após o processo de instalação clique em close para fechar o instalador.
+Para instalar o Python será necessário baixar o instalador acessando o site oficial [nesse link](https://www.python.org/downloads/) e clicando em download Python.
+1. Clique duas vezes no instalador para iniciar o assistente de instalação do python.
+2. Quando abrir o instalador marque a opção "Add Python to PATH".
+3. Clique em "Install Now".
+4. Após o processo de instalação clique em close para fechar o instalador.
 
 
 ## Instalação Robot Framework
@@ -64,14 +64,14 @@ Após a execução de comando para executar o teste, os resultados ficam armazen
 ## Desafio de consulta de cep 
 
 Descrição da demanda:
-	Foi verificado a necessidade de realizar testes na api de consulta de ceps do site apiceps.com para que possa verificar a integridade da api como a sua resposta de requisição e seu status.
+	Foi verificado a necessidade de realizar testes na api de consulta de ceps do site apiceps.com para poder verificar a integridade da api como a sua resposta de requisição e seu status.
 
 Solução proposta
 	A ferramenta escolhida para realização do teste foi o robot framework onde será feita a requisição utilizando casos de testes em sintaxe gherkin e no final de cada teste será realizado validação das respostas das requisições. Algumas das bibliotecas escolhidas para fazer os testes são: 	
 Requests Library – Ela possibilita o robot framework fazer requisições com apis.
 Collections Library- Essa biblioteca permite o robot framework fazer manipulações e validações de dicionários.
 Json Library- Essa biblioteca permite o robot framework fazer manipulação, importação e exportação de Json.
-Operation System- é utilizada para importar arquivos para o teste, dentre outras funcionalidade do SO.
+Operation System- é utilizada para importar arquivos para o teste, dentre outra funcionalidade do SO.
 
 Cenários de testes
 
