@@ -95,7 +95,7 @@ Quando o usuário consultar o CEP invalido "33333-334"
 Então a requisição deve falhar e retornar o status "403"
 
 ## Conclusão
-No primeiro caso de teste a requisição foi realizada com sucesso e com base no cep informado e nas validações feitas nos testes, todos os dados estão de acordo com o endereço relacionado ao cep.
+No primeiro caso de teste a requisição foi realizada com sucesso e com base no cep informado e nas validações feitas nos testes, todos os dados estão de acordo com o endereço relacionado ao cep, com uma assertiva para cada valor retornado no JSON.
 No segundo teste a requisição falhou e retornou o status 403, lembrando que o teste passou mesmo com a requisição falhando pois foi feito uma assertiva para que esperasse o status 403 ao concluir a requisição.
 
 
